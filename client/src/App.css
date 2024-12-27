@@ -1,0 +1,38 @@
+/* App.css */
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+h1 {
+  color: #333;
+}

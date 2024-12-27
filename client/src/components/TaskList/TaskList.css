@@ -1,0 +1,38 @@
+/* TaskList.css */
+.task-list {
+  display: grid;
+  gap: 20px;
+}
+
+.task-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.task-item h3 {
+  margin: 0 0 10px 0;
+}
+
+.task-item button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.task-item button:hover {
+  background-color: #218838;
+}
+
+.task-item button:nth-child(2) {
+  background-color: #dc3545;
+}
+
+.task-item button:nth-child(2):hover {
+  background-color: #c82333;
+}
